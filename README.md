@@ -32,5 +32,5 @@ Alternatively, you can use Docker Compose for an even simpler setup.
 ## Output Data
 
 Upon running the project, an output_data folder will be created in the same directory. This folder will contain the following files:
-- **data_profiling.csv**: Contains insights and summaries of the input data.
-- **data_processing.csv**: Contains the processed data based on the defined business logic.
+- **data_profiling_result.csv**: Contains insights and summaries of the input data.
+- **data_processing_result.csv**: Contains the processed data based on the defined business logic.
