@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: fithub-test-toras
+    tty: true
+    restart: always
+    volumes:
+      - ./output_data:/app/output_data
